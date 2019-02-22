@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <g/>
+  <rect x="300" y="100" width="91.587" height="327.018" style="stroke: rgb(0, 0, 0); fill: rgb(59, 59, 59);"/>
+  <rect x="184.023" y="33.953" width="98.468" height="280.721" style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 5px;"/>
+  <rect x="70.369" y="100" width="93.815" height="325.884" style="stroke: rgb(0, 0, 0); fill: rgb(59, 59, 59);"/>
+  <path d="M 268.474 76.137 H 324.614 L 324.614 58.041 L 425.407 90.604 L 324.614 123.166 L 324.614 105.071 H 268.474 V 76.137 Z" style="fill: rgb(59, 59, 59);" transform="matrix(0.007434, 0.999972, -0.999985, 0.005778, 319.264587, -201.836914)" bx:shape="arrow 268.474 58.041 156.933 65.125 28.934 100.793 0 1@cfb41ff6"/>
+</svg>

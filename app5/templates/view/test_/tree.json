@@ -1,0 +1,53 @@
+{
+  "children" : [
+    {
+      "name" : "Item1",
+      "displayName" : "Item 1",
+      "uid" : "ClassA.1",
+      "children" : [
+        {
+          "name" : "Item11",
+          "displayName" : "Item 11",
+          "uid" : "ClassB.11"
+        },
+        {
+          "name" : "Item12",
+          "displayName" : "Item 12",
+          "uid" : "ClassB.12"
+        },
+        {
+          "name" : "Item13",
+          "displayName" : "Item 13",
+          "uid" : "ClassB.13"
+        }
+      ]
+    },
+    {
+      "name" : "Item2",
+      "displayName" : "Item 2",
+      "uid" : "ClassA.2",
+      "children" : [
+        {
+          "name" : "Item21",
+          "displayName" : "Item 21",
+          "uid" : "ClassB.21"
+        },
+        {
+          "name" : "Item22",
+          "displayName" : "Item 22",
+          "uid" : "ClassB.22"
+        },
+        {
+          "name" : "Item23",
+          "displayName" : "Item 23",
+          "uid" : "ClassB.23"
+        }
+      ]
+    },
+    {
+      "name" : "Item3",
+      "displayName" : "Item 3",
+      "uid" : "ClassA.3"
+    }
+  ]
+}

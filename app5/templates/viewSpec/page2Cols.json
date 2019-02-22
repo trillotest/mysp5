@@ -1,0 +1,36 @@
+{
+  "name" : "page2Cols",
+  "type" : "page",
+  "displayName" : "Left Sidebar",
+  "description" : "Skeleton page with a header, a left sidbar and main content area.",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "designTimeHeight" : "49px",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "childrenSpecs" : [
+        {
+          "name" : "leftColumn",
+          "type" : "column",
+          "designTimeWidth" : "240px",
+          "cssClass" : "left-column"
+        },
+        {
+          "name" : "mainContentArea",
+          "flexGrow" : "1",
+          "designTimeHeight" : "100px",
+          "main" : true,
+          "type" : "column"
+        }
+      ],
+      "flexGrow" : "1",
+      "main" : true,
+      "type" : "row",
+      "cssClass" : "light-content-area main-row"
+    }
+  ]
+}
