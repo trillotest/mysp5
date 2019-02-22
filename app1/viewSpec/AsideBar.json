@@ -1,0 +1,12 @@
+{
+  "name" : "AsideBar",
+  "type" : "html",
+  "width" : "250px",
+  "minWidth" : "250px",
+  "css" : {
+    "min-width" : "250px",
+    "width" : "250px",
+    "flex" : "1"
+  },
+  "cssClass" : "aside-menu trillo-item-design-mode"
+}

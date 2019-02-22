@@ -1,0 +1,58 @@
+<div data-container="" class="trillocontainer trillo-container" name="dashboard" nm="dashboard" style="display: flex; flex-direction: column; flex-grow: 1;">
+  <header class="app-header navbar" nm="header" name="header" data-reference="header" data-component="view" data-trigger="_initial_" tag="userDefined" style="z-index: 2000; flex-grow: 1;"></header>
+  <div data-component="row" class="lightcontentarea mainrow trillocontainerrow trillo-container-row" nm="row_1" name="mainRow" tag="templateE" style="flex-wrap: nowrap;">
+    <div data-component="column" class="leftcolumn trillocontainercolumn trillo-container-column" nm="column_1" name="leftColumn" tag="templateE" style="min-width: 250px; flex-grow: 0;">
+      <div class="sidebar" nm="SideBar" name="SideBar" data-reference="SideBar" data-component="view" data-trigger="_initial_" tag="userDefined" style="min-width: 250px; flex-grow: 1; width: 250px;"></div>
+    </div>
+    <div data-component="column" class="trillocontainercolumn trillo-container-column" nm="column_2" name="titleAndContentArea" tag="templateE">
+      <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_2" name="titleBar" style="padding: 5px 20px;">
+        <div nm="view_3" name="view_3" data-reference="LineChartJS" data-component="view" data-trigger="_initial_/SideBar:charts" class=""></div>
+      </div>
+      <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_3" name="Row_6" data-trigger="_initial_/SideBar:charts" tag="userDefined">
+        <div nm="view_4" name="view_4" data-reference="Traffic" data-component="view" data-trigger="_initial_/SideBar:charts" class=""></div>
+      </div>
+      <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_4" name="Row_12" data-trigger="_initial_/SideBar:charts" tag="userDefined"> </div>
+      <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_5" name="Row_7" data-trigger="_initial_/SideBar:charts" tag="userDefined">
+        <div nm="view_5" name="view_5" data-reference="Sales" data-component="view" data-trigger="_initial_/SideBar:charts" class=""></div>
+      </div>
+      <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_6" name="mainContentArea" tag="templateE">
+        <div data-component="column" class="trillocontainercolumn trillo-container-column" nm="column_3" name="column_4">
+          <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_7" name="Row_10" data-trigger="_initial_/SideBar:sales" tag="userDefined">
+            <div nm="view_6" name="view_6" data-reference="Sales" data-component="view" data-trigger="_initial_/SideBar:sales" class=""></div>
+          </div>
+          <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_8" name="Row_11" data-trigger="_initial_/SideBar:sales" tag="userDefined">
+            <div nm="view_7" name="view_7" data-reference="Traffic" data-component="view" data-trigger="_initial_/SideBar:sales" class=""></div>
+          </div>
+        </div>
+        <div data-component="column" class="trillocontainercolumn trillo-container-column" nm="column_4" name="column_3">
+          <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_9" name="Row_8" data-trigger="_initial_/SideBar:alerts" tag="userDefined">
+            <div nm="view_8" name="view_8" data-reference="AllCards" data-component="view" data-trigger="_initial_/SideBar:alerts" class=""></div>
+          </div>
+        </div>
+        <div data-component="column" class="trillocontainercolumn trillo-container-column" nm="column_5" name="column_1">
+          <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_10" name="Row_1" data-trigger="_initial_/home_" tag="userDefined" padding="20px">
+            <div data-container="" name="C3" nm="C3" class="content-cell" data-reference="C3" data-component="view" data-trigger="_initial_/home_" style="flex-grow: 1;"></div>
+          </div>
+          <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_12" name="Row_3" data-trigger="_initial_/home_" tag="userDefined">
+            <div data-container="" class="trillo-container" name="AllCards" nm="AllCards" data-reference="AllCards" data-component="view" data-trigger="_initial_/home_" tag="userDefined" style="display: flex; flex-direction: row; flex-grow: 1;"></div>
+          </div>
+          <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_13" name="Row_4" data-trigger="_initial_/home_" tag="userDefined">
+            <div data-component="column" class="trillocontainercolumn trillo-container-column" nm="column_6" name="column_2">
+              <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_14" name="Row_5" data-trigger="_initial_/home_" tag="userDefined" flex-wrap="nowrap">
+                <div data-container="" name="DonutChartJS" nm="DonutChartJS" class="content-cell" data-reference="DonutChartJS" data-component="view" data-trigger="_initial_/home_" style="flex-grow: 1;"></div>
+                <div data-container="" name="PieChartJS" nm="PieChartJS" class="content-cell" data-reference="PieChartJS" data-component="view" data-trigger="_initial_/home_" style="flex-grow: 1;"></div>
+              </div>
+            </div>
+          </div>
+          <div data-component="row" class="trillocontainerrow trillo-container-row" nm="row_15" name="Row_9" data-trigger="_initial_/home_" tag="userDefined">
+            <div data-container="" name="LineChartJS" nm="LineChartJS" class="content-cell" data-reference="LineChartJS" data-component="view" data-trigger="_initial_/home_" style="flex-grow: 1;"></div>
+          </div>
+        </div>
+        <div nm="view_16" name="view_16" data-reference="Subscribers" data-component="view" data-trigger="_initial_/SideBar:users" class=""></div>
+      </div>
+    </div>
+    <div data-component="column" class="rightcolumn trillocontainercolumn trillo-container-column" nm="column_7" name="rightColumn" tag="templateE" style="width: 250px; min-width: 250px; flex-grow: 0;">
+      <aside class="aside-menu" nm="AsideBar" name="AsideBar" data-reference="AsideBar" data-component="view" data-trigger="_initial_" tag="userDefined" style="min-width: 250px; width: 250px; flex: 1 1 0%;"></aside>
+    </div>
+  </div>
+</div>

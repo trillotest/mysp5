@@ -1,0 +1,14 @@
+[
+  {
+    "appTemplate" : "webapp",
+    "displayName" : "app1",
+    "linkedApp" : "shared",
+    "name" : "app1",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  }
+]

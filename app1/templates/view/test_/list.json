@@ -1,0 +1,28 @@
+{
+  "numberOfPages": 1,
+  "pageNumber": 1,
+  "pageSize": 32,
+  "totalNumberOfItems": 5,
+  "items": [
+    {
+      "name": "A1",
+      "uid": "Test.1"
+    },
+    {
+      "name": "B1",
+      "uid": "Test.2"
+    },
+    {
+      "name": "C1",
+      "uid": "Test.3"
+    },
+    {
+      "name": "D1",
+      "uid": "Test.4"
+    },
+    {
+      "name": "E1",
+      "uid": "Test.5"
+    }
+  ]
+}

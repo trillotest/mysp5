@@ -1,0 +1,39 @@
+<div class="bg-light navbar-3" style="display: flex" data-category="Navigations">
+  <nav class="navbar navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myid" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse bg-light" id="myid">
+      <ul class="navbar-nav mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Offers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </nav>
+  <div style="flex-grow: 1; margin: auto; text-align:center">
+    <a class="navbar-brand" href="#">
+      <img src="/$org_name$/shared/static/img/logo-stamp.png"></a>
+  </div>
+  <div class="btn-group">
+    <img class="trillo-user-picture js-picture-url" src="/$org_name$/shared/static/img/logo-stamp.png" />
+    <a href="#" class="trillo-on-valid-role dropdown-toggle" style="height:15px; margin: auto 12px auto 3px; color: #3b3b3b" data-toggle="dropdown"> <i></i></a>
+
+    <div class="dropdown-menu dropdown-menu-right js-menu-items-c">
+      <a class="dropdown-item js-menu-item" disabled nm="myProfile" href="#"> {{user.fullName}} </a>
+      <a class="dropdown-item js-menu-item" nm="_logout" href="#"> Logout </a>
+    </div>
+
+    </ul>
+  </div>
+</div>
