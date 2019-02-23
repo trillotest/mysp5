@@ -1,0 +1,15 @@
+{
+  "name" : "header",
+  "type" : "html",
+  "actionSpecs" : [
+    {
+      "name" : "location-pin",
+      "type" : "notYet"
+    }
+  ],
+  "css" : {
+    "z-index" : 2000,
+    "flex-grow" : "1"
+  },
+  "cssClass" : "app-header navbar trillo-item-design-mode"
+}

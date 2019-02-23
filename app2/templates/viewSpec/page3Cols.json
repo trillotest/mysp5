@@ -1,0 +1,59 @@
+{
+  "name" : "page3Cols",
+  "type" : "page",
+  "displayName" : "Left-Right Sidebar &amp; Title",
+  "description" : "Skeleton page with a header, a left sidbar, a right sidebar, a title bar and main content area.",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "designTimeHeight" : "49px",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "childrenSpecs" : [
+        {
+          "name" : "leftColumn",
+          "type" : "column",
+          "designTimeWidth" : "250px",
+          "cssClass" : "left-column"
+        },
+        {
+          "name" : "titleAndContentArea",
+          "childrenSpecs" : [
+            {
+              "name" : "titleBar",
+              "css" : {
+                "designTimeHeight" : "30px",
+                "padding" : "5px 20px"
+              },
+              "type" : "row"
+            },
+            {
+              "name" : "mainContentArea",
+              "designTimeHeight" : "100px",
+              "flexGrow" : "1",
+              "main" : true,
+              "type" : "row"
+            }
+          ],
+          "flexGrow" : "1",
+          "main" : true,
+          "type" : "column"
+        },
+        {
+          "name" : "rightColumn",
+          "type" : "column",
+          "designTimeWidth" : "250px",
+          "cssClass" : "right-column",
+          "minWidth" : "0px"
+        }
+      ],
+      "flexGrow" : "1",
+      "main" : true,
+      "type" : "row",
+      "cssClass" : "light-content-area main-row"
+    }
+  ]
+}

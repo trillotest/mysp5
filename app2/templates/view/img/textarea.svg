@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+  <path d="m421 31h-60v30h60v30h30v60h30v-60h31v-91h-91zm0 0" style="opacity: 0.75;"/>
+  <path d="m181 31h60v30h-60zm0 0" style="opacity: 0.75;"/>
+  <path d="m271 31h60v30h-60zm0 0" style="opacity: 0.75;"/>
+  <path d="m451 271h30v60h-30zm0 0" style="opacity: 0.75;"/>
+  <path d="m451 181h30v60h-30zm0 0" style="opacity: 0.75;"/>
+  <path d="m481 361h-30v60h-30v30h-60v30h60v31h91v-91h-31zm0 0" style="opacity: 0.75;"/>
+  <path d="m31 271h30v60h-30zm0 0" style="opacity: 0.75;"/>
+  <path d="m31 181h30v60h-30zm0 0" style="opacity: 0.75;"/>
+  <path d="m31 151h30v-60h30v-30h60v-30h-60v-31h-91v91h31zm0 0" style="opacity: 0.75;"/>
+  <path d="m91 421h-30v-60h-30v60h-31v91h91v-31h60v-30h-60zm0 0" style="opacity: 0.75;"/>
+  <path d="m181 451h60v30h-60zm0 0" style="opacity: 0.75;"/>
+  <path d="m271 451h60v30h-60zm0 0" style="opacity: 0.75;"/>
+  <path d="m271 121h150v30h-150zm0 0" style="opacity: 0.75;"/>
+  <path d="m271 181h150v30h-150zm0 0" style="opacity: 0.75;"/>
+  <path d="m271 241h150v30h-150zm0 0" style="opacity: 0.75;"/>
+  <path d="m91 301h330v30h-330zm0 0" style="opacity: 0.75;"/>
+  <path d="m91 361h330v30h-330zm0 0" style="opacity: 0.75;"/>
+  <path d="m91 181h30v-30h30v90h-30v30h90v-30h-30v-90h30v30h30v-60h-150zm0 0" style="opacity: 0.75;"/>
+</svg>

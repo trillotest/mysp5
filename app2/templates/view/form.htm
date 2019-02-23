@@ -1,0 +1,184 @@
+<div class="trillo-form" style="width:450px; padding: 20px;
+  border: 1px solid #eee; border-radius:5px" data-category="Forms">
+  <form data-container>
+    <div data-component="readonly" class="form-group">
+      <label data-label>Readonly</label>
+      <span data-field class="form-control">some readonly text</span>
+    </div>
+    <div data-component="text" class="form-group" data-category="InputFields">
+      <label data-label>Text</label>
+      <input data-field type="text" class="form-control">
+    </div>
+
+    <div class="form-group" data-component="checkbox" data-category="InputFields">
+      <div class="custom-control custom-checkbox">
+        <input data-field type="checkbox" class="custom-control-input" id="use-name">
+        <label data-label class="custom-control-label">Checkbox</label>
+      </div>
+    </div>
+
+    <div class="form-group switchToggle" data-component="switch" data-category="InputFields">
+      <input data-field type="checkbox" id="use-name">
+      <label>Toggle</label>
+    </div>
+
+    <div data-radios-container class="form-group" data-component="radio" data-category="InputFields">
+      <div data-radio-container class="custom-control custom-radio">
+        <input data-field type="radio" id="use-name" name="use-name" class="custom-control-input">
+        <label data-label data-radio-label class="custom-control-label">Radio</label>
+      </div>
+    </div>
+    <div data-radios-container class="form-group" data-component="radio-inline" data-category="InputFields">
+      <div data-radio-container class="custom-control custom-radio custom-control-inline">
+        <input data-field type="radio" id="use-name" name="use-name" class="custom-control-input">
+        <label data-label data-radio-label class="custom-control-label">Radio</label>
+      </div>
+    </div>
+    <div data-component="select" class="form-group" data-category="InputFields">
+      <label data-label>Select</label>
+      <select data-field class="form-control custom-select">
+        <option>1</option>
+        <option>2</option>
+      </select>
+    </div>
+    <div data-component="multi-select" class="form-group" data-category="InputFields">
+      <label data-label>Multi-select</label>
+      <select multiple data-field class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+    </div>
+    <div data-component="textarea" class="form-group" data-category="InputFields">
+      <label data-label>Textarea</label>
+      <textarea data-field class="form-control" rows="2"></textarea>
+    </div>
+    <div data-component="number" class="form-group" data-category="InputFields">
+      <label data-label>Number</label>
+      <input data-field type="number" class="form-control">
+    </div>
+    <div data-component="spinner" class="form-group trillo-input-spinner-c" data-category="InputFields">
+      <label data-label="">Input spinner</label>
+      <div class="input-group" data-input-container>
+        <div class="input-group-prepend">
+          <button class="btn btn-decrement btn-outline-secondary trillo-input-spinner-btn" type="button">
+            <strong>-</strong>
+          </button>
+        </div>
+        <input data-field type="text" class="form-control trillo-input-spinner" min="1" max="100">
+        <div class="input-group-append">
+          <button class="btn btn-increment btn-outline-secondary trillo-input-spinner-btn" type="button">
+            <strong>+</strong></button>
+        </div>
+      </div>
+    </div>
+    <div data-component="email" class="form-group" data-category="InputFields">
+      <label data-label>Email</label>
+      <input data-field type="input" class="form-control" data-validation-optional="true" data-validation="email">
+    </div>
+    <div data-component="password" class="form-group" data-category="InputFields">
+      <label data-label>Password</label>
+      <input data-field type="password" class="form-control">
+    </div>
+    <div data-component="datetime" class="form-group" data-category="InputFields">
+      <label data-label>Date Time</label>
+      <input data-field type="text" class="form-control">
+    </div>
+    <div data-component="datetime-local" class="form-group" data-category="InputFields">
+      <label data-label>Date Time Local</label>
+      <input data-field type="text" class="form-control">
+    </div>
+    <div data-component="date" class="form-group" data-category="InputFields">
+      <label data-label>Date</label>
+      <input data-field type="text" class="form-control flatpickr-input" placeholder="Click to pick a date">
+    </div>
+    <div data-component="time" class="form-group" data-category="InputFields">
+      <label data-label>Time</label>
+      <input data-field type="text" class="form-control flatpickr-input" placeholder="Click to pick a date">
+    </div>
+    <div data-component="month" class="form-group" data-category="InputFields">
+      <label data-label>Month</label>
+      <input data-field type="text" dataFormat="F Y" class="form-control">
+    </div>
+    <div data-component="url" class="form-group">
+      <label data-label>URL</label>
+      <input data-field type="url" class="form-control">
+    </div>
+    <div data-component="tel" class="form-group" data-category="InputFields">
+      <label data-label>Telephone</label>
+      <input data-field type="tel" class="form-control">
+    </div>
+    <div data-component="search" class="form-group" data-category="InputFields">
+      <label data-label>Search</label>
+      <input data-field type="search" class="form-control">
+    </div>
+    <div data-component="range" class="form-group" data-category="InputFields">
+      <label data-label>Example range</label>
+      <input data-field type="range" class="custom-range" min="0" max="5">
+    </div>
+    <div data-component="fileInput" class="form-group" data-category="InputFields">
+      <div class="custom-file">
+        <input data-field type="file" class="custom-file-input" id="customFile">
+        <label data-label class="custom-file-label" for="customFile">Choose file</label>
+      </div>
+    </div>
+    <div data-component="template" class="form-group trillo-template-component">
+      <div class="form-control"></div>
+    </div>
+    <button data-component="button" type="button" class="btn btn-primary"  data-category="Buttons">Button</button>
+    <button data-component="submit" type="submit" class="btn btn-primary"  data-category="Buttons">Button</button>
+    <button data-component="reset" type="reset" class="btn btn-primary"  data-category="Buttons">Button</button>
+    <div data-container data-component="fieldsRow" data-hidden class="form-inline">
+    </div>
+    <label data-component="field-action" data-hidden class="trillo-field-action trillo-display-none">
+      <a href="#" data-action class="js-tool"><i class="trillo-arrow-right"></i></a>
+    </label>
+    <div data-component="row12Col" class="form-row"   data-category="Layouts">
+      <div data-column class="col-12">
+      </div>
+    </div>
+    <div data-component="row12ColSmall" class="form-row"   data-category="Layouts">
+      <div data-column class="col-sm-12">
+      </div>
+    </div>
+    <div data-component="row12ColMedium" class="form-row"   data-category="Layouts">
+      <div data-column class="col-md-12">
+      </div>
+    </div>
+    <div data-component="row12ColLarge" class="form-row"   data-category="Layouts">
+      <div data-column class="col-lg-12">
+      </div>
+    </div>
+    <div data-component="row12ColXLarge" class="form-row"   data-category="Layouts">
+      <div data-column class="col-xl-12">
+      </div>
+    </div>
+    <h1 data-component="h1" class="trillo-component" data-content-editable="true" data-category="Headers">
+      Heading 1
+    </h1>
+    <h2 data-component="h2" class="trillo-component" data-content-editable="true" data-category="Headers">
+      Heading 2
+    </h2>
+    <h3 data-component="h3" class="trillo-component" data-content-editable="true" data-category="Headers">
+      Heading 2
+    </h3>
+    <h4 data-component="h4" class="trillo-component" data-content-editable="true" data-category="Headers">
+      Heading 4
+    </h4>
+    <h5 data-component="h5" class="trillo-component" data-content-editable="true" data-category="Headers">
+      Heading 5
+    </h5>
+    <h6 data-component="h6" class="trillo-component" data-content-editable="true" data-category="Headers">
+      Heading 6
+    </h6>
+    <p data-component="p" class="trillo-component" data-content-editable="true">
+      This is a para.
+    </p>
+    <div data-component="div" class="trillo-component" data-content-editable="true">
+      This is a div element
+    </div>
+    <img data-component="img" class="trillo-component" src="https://www.trillo.io//collager/Builder/static/img/place-holder.png" style="width:400px, height: 400px" />
+  </form>
+  <small class="form-control-feedback trillo-display-none js-field-error"></small>
+  <small class="form-text text-muted trillo-display-none js-field-message"></small>
+</div>

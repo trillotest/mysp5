@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="280" height="242" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g transform="translate(-10 211)" style="opacity: 0.75;">
+    <path d="M30-191h240V11H30z" stroke="#000" stroke-opacity="0" stroke-width="2" fill="#fff" fill-opacity="0"/>
+    <g transform="matrix(1, 0, 0, 1, 53.704, -63.333)">
+      <use transform="matrix(0.3703703703703704,0,0,0.3703703703703704,0,0)" xlink:href="#b"/>
+      <use transform="matrix(0.3703703703703704,0,0,0.3703703703703704,77.77777777777779,0)" xlink:href="#c"/>
+      <use transform="matrix(0.3703703703703704,0,0,0.3703703703703704,114.81481481481482,0)" xlink:href="#d"/>
+    </g>
+    <defs>
+      <path d="M18-100v-36l175-74v27L42-118l151 64v27" id="b"/>
+      <path d="M0 4l72-265h28L28 4H0" id="c"/>
+      <path d="M18-27v-27l151-64-151-65v-27l175 74v36" id="d"/>
+      <g id="a">
+        <path d="M 6.667 -37.037 L 6.667 -50.37 L 71.481 -77.778 L 71.481 -67.778 L 15.556 -43.704 L 71.481 -20 L 71.481 -10"/>
+        <path d="M 77.778 1.481 L 104.444 -96.667 L 114.815 -96.667 L 88.148 1.481 L 77.778 1.481"/>
+        <path d="M 121.481 -10 L 121.481 -20 L 177.407 -43.704 L 121.481 -67.778 L 121.481 -77.778 L 186.296 -50.37 L 186.296 -37.037"/>
+      </g>
+    </defs>
+  </g>
+</svg>
