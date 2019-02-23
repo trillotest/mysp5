@@ -1,0 +1,24 @@
+{
+  "name" : "pageBlank",
+  "displayName" : "Blank Template",
+  "description" : "Skeleton page with a blank main content area.",
+  "type" : "page",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "mainRow",
+      "childrenSpecs" : [
+        {
+          "name" : "mainContentArea",
+          "flexGrow" : "1",
+          "designTimeHeight" : "100px",
+          "main" : true,
+          "type" : "column"
+        }
+      ],
+      "flexGrow" : "1",
+      "main" : true,
+      "type" : "row"
+    }
+  ]
+}

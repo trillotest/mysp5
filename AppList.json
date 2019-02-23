@@ -10,5 +10,17 @@
     "usingEnumsCatalog" : true,
     "usingStringFiles" : true,
     "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
+    "displayName" : "app2",
+    "linkedApp" : "shared",
+    "name" : "app2",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
   }
 ]

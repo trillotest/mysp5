@@ -1,0 +1,11 @@
+{
+  "name" : "app2",
+  "type" : "page",
+  "controller" : "app2C",
+  "css" : {
+    "display" : "flex",
+    "flex-direction" : "column",
+    "flex-grow" : "1"
+  },
+  "cssClass" : "trillocontainer trillo-container trillo-item-design-mode"
+}

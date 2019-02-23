@@ -1,0 +1,29 @@
+{
+  "name" : "page1Col",
+  "displayName" : "Basic Template",
+  "description" : "Skeleton page with a header and main content area.",
+  "type" : "page",
+  "controller" : "AppC",
+  "containerSpecs" : [
+    {
+      "name" : "headerRow",
+      "designTimeHeight" : "49px",
+      "type" : "row"
+    },
+    {
+      "name" : "mainRow",
+      "childrenSpecs" : [
+        {
+          "name" : "mainContentArea",
+          "flexGrow" : "1",
+          "designTimeHeight" : "100px",
+          "main" : true,
+          "type" : "column"
+        }
+      ],
+      "flexGrow" : "1",
+      "main" : true,
+      "type" : "row"
+    }
+  ]
+}
